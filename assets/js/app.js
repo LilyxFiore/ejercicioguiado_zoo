@@ -1,5 +1,4 @@
 var img = document.getElementsByClassName("animal");
-var div = document.getElementById("animals");
 
 var select = document.getElementById("select");
 select.onchange = function(){
@@ -8,9 +7,8 @@ select.onchange = function(){
       img[i].classList.remove("blanco-negro");
       img[i].classList.remove("invertir-colores");
       img[i].classList.remove("sepia");
-      img[i].setAttribute("class", "animal original");
+      img[i].classList.add("original");
     }
-    div.class="original";
   }
 
   if(select.value == "blanco-negro"){
@@ -18,7 +16,7 @@ select.onchange = function(){
       img[i].classList.remove("original");
       img[i].classList.remove("invertir-colores");
       img[i].classList.remove("sepia");
-      img[i].setAttribute("class", "animal blanco-negro");
+      img[i].classList.add("blanco-negro");
     }
   }
 
@@ -27,7 +25,7 @@ select.onchange = function(){
       img[i].classList.remove("original");
       img[i].classList.remove("blanco-negro");
       img[i].classList.remove("sepia");
-      img[i].setAttribute("class", "animal invertir-colores");
+      img[i].classList.add("invertir-colores");
     }
   }
 
@@ -36,7 +34,7 @@ select.onchange = function(){
       img[i].classList.remove("original");
       img[i].classList.remove("invertir-colores");
       img[i].classList.remove("blanco-negro");
-      img[i].setAttribute("class", "animal sepia");
+      img[i].classList.add("sepia");
       }
   }
 }

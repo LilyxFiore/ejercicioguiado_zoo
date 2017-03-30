@@ -4,9 +4,9 @@ body {
 }
 
 select{
-  color: #d57e18;
   font-size: 17px;
-  background: rgb(21, 6, 57);
+  background: #49e6c0;
+  padding: 2px;
 }
 
 body {

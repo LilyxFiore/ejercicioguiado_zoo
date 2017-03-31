@@ -1,16 +1,20 @@
 body {
   padding-left: 50px;
   padding-right: 50px;
-}
- 
-select{
-  font-size: 17px;
-  background: #49e6c0;
-  padding: 2px;
+  background: white;
+  margin: 0;
 }
 
-body {
-  background: #e6e0d3;
+.content {
+  text-align: center;
+  background-color: #13305e;
+  padding-top: 20px;
+}
+
+select{
+  font-size: 17px;
+  padding: 2px;
+  margin-bottom: 20px;
 }
 
 .animal{

@@ -16,7 +16,7 @@ select.onchange = function(){
       img[i].classList.remove("original");
       img[i].classList.remove("invertir-colores");
       img[i].classList.remove("sepia");
-      img[i].classList.add("blanco-negro");
+      img[i].classList.add("blanco-negro"); 
     }
   }
 
